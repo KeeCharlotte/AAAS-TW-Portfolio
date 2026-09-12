@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "portfolio_version": "0.1.0",
+  "source_commit": "4841c00148a941520e8d2538e5107a4e73195320",
+  "description": "Selected files copied byte-for-byte from the declared private source snapshot. This record is a publisher declaration, not independent verification of the private repository.",
+  "preserved_files": [
+    {
+      "path": "src/__init__.py",
+      "sha256": "429dfdf9492fbe5c4d5f01eb6a56e7c8594d8f8200aae54be5c5da4dd06d6e14"
+    },
+    {
+      "path": "src/domain/__init__.py",
+      "sha256": "6599341b223f4fb7d072decd5a0b6c0c8ae60cdb3b103da178e7f476706a1e05"
+    },
+    {
+      "path": "src/domain/accounting/__init__.py",
+      "sha256": "b721c535bc119395e9b02ba478bd7c644f4d0bf29598fb11d86d9400524e38fe"
+    },
+    {
+      "path": "src/domain/accounting/posting_policy.py",
+      "sha256": "82b45cb0d0d36d7abf8c11753b9faf5213f7bbf4c305395228742fe0a60d125e"
+    },
+    {
+      "path": "tests/test_posting_policy.py",
+      "sha256": "fe9e2a39ba4c64da2946df451d5a3a1620c895afbf5b273fd8bddc5b15a0820a"
+    }
+  ]
+}

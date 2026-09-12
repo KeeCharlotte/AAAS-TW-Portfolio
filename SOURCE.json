@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "portfolio_version": "0.1.0",
+  "portfolio_version": "0.2.0",
   "source_commit": "4841c00148a941520e8d2538e5107a4e73195320",
   "description": "Selected files copied byte-for-byte from the declared private source snapshot. This record is a publisher declaration, not independent verification of the private repository.",
   "preserved_files": [
@@ -24,5 +24,7 @@
       "path": "tests/test_posting_policy.py",
       "sha256": "fe9e2a39ba4c64da2946df451d5a3a1620c895afbf5b273fd8bddc5b15a0820a"
     }
-  ]
+  ],
+  "project_overview_source_commit": "f5ea3d72c590bb03cead5c25777fc115326c6cc5",
+  "historical_system_evidence": "evidence/RESULTS.json"
 }

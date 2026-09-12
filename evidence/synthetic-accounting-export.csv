@@ -1,0 +1,4 @@
+journal_id,posting_date,reference,account_code,debit,credit,description
+930b03f2-b5e0-492d-9efd-9dc4e9ddbb54,2026-09-12,Synthetic corrected invoice browser loop,TF194394,0.00,10.00,Output VAT
+930b03f2-b5e0-492d-9efd-9dc4e9ddbb54,2026-09-12,Synthetic corrected invoice browser loop,RF194394,210.00,0.00,Sale consideration
+930b03f2-b5e0-492d-9efd-9dc4e9ddbb54,2026-09-12,Synthetic corrected invoice browser loop,VF194394,0.00,200.00,Sale revenue

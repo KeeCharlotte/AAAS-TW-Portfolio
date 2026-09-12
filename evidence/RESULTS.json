@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "classification": "Historical synthetic engineering evidence; not current full-system acceptance or a customer outcome.",
+  "summary_method": "Selected fields extracted by AI from retained test output, with original screenshots and CSV preserved byte-for-byte. Complete raw evidence remains private; this is a publisher disclosure, not independent third-party verification.",
+  "feature_inventory_source_commit": "f5ea3d72c590bb03cead5c25777fc115326c6cc5",
+  "historical_system_run": {
+    "date_utc": "2026-09-12",
+    "source_commit": "9012a79dd736c572da0a98b91ce6620e07509fbf",
+    "run_id": 34673341743,
+    "overall_conclusion": "failure",
+    "jobs_passed": 18,
+    "jobs_total": 19,
+    "accounting_postgresql": {
+      "passed": 49,
+      "failed": 0
+    },
+    "security_postgresql": {
+      "passed": 24,
+      "failed": 2
+    },
+    "browser": {
+      "status": "PASS",
+      "distinct_actor_count": 3,
+      "recorded_response_count": 19,
+      "page_errors": [],
+      "new_voucher_version_created": true,
+      "new_version_requires_fresh_recognition": true,
+      "original_gross_amount": "105.00",
+      "revised_gross_amount": "210.00",
+      "currency": "TWD",
+      "original_document_outcome": "needs_information",
+      "revised_document_outcome": "posted",
+      "final_match_status": "confirmed",
+      "exception_status_sequence": [
+        "open",
+        "investigating",
+        "resolved",
+        "reopened",
+        "investigating",
+        "resolved"
+      ],
+      "export_row_count": 3,
+      "delivery_status": "delivered",
+      "recipient_acceptance": "not_established",
+      "interleaving_regressions": [
+        "logout_and_new_actor_during_refresh",
+        "existing_catalog_navigation_during_command",
+        "committed_response_lost_history_and_exact_retry",
+        "closed_exception_reload_reopen_and_permission_denial"
+      ]
+    },
+    "artifact_id": 10291118201,
+    "artifact_zip_sha256": "4097089d0917a3330d6915558e73ecf111b8fd244fc359027df6d3f15e4470f2",
+    "raw_browser_result_sha256": "8b16605075514130c836bf5db74b19bfe4edfa01bec3e8cedd913945dd1a41ac"
+  },
+  "current_full_system_verification": {
+    "status": "pending",
+    "reason": "Two subsequent persistent row-level-security policy repairs have not completed a full regression run. Historical successes do not establish current full-system acceptance."
+  },
+  "public_policy_module": {
+    "source_commit": "4841c00148a941520e8d2538e5107a4e73195320",
+    "python_version": "3.12.14",
+    "pytest_version": "9.0.2",
+    "local_tests_passed": 112,
+    "local_tests_skipped": 0,
+    "command": "python -B -m pytest -q -p no:cacheprovider",
+    "scope": "Standalone policy module with synthetic caller-provided authority data; no database posting."
+  },
+  "preserved_public_artifacts": [
+    {
+      "path": "assets/workbench-returned.png",
+      "sha256": "2abbe5afdfed2f24b46e10d464abc24eff3ff4151461c5f9c1bfb7626cc38ead"
+    },
+    {
+      "path": "assets/workbench-posted.png",
+      "sha256": "860f894a3d26803ebd5366ebf14fb965d802f52fe95fa6ceb8ac0209a8ffde75"
+    },
+    {
+      "path": "evidence/synthetic-accounting-export.csv",
+      "sha256": "d3e6573a9abd1645961ae01dd33f2de475c85bd761fa9bf37b472660155bed50"
+    }
+  ]
+}

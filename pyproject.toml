@@ -1,7 +1,7 @@
 [project]
-name = "aaas-tw-portfolio"
-version = "0.2.0"
-description = "Selected accounting policy implementation for portfolio evaluation"
+name = "veritrail-portfolio"
+version = "0.3.0"
+description = "Veritrail accounting policy implementation for portfolio evaluation"
 requires-python = ">=3.11"
 
 [tool.pytest.ini_options]

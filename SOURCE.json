@@ -2,7 +2,8 @@
   "schema_version": 1,
   "portfolio_version": "0.3.0",
   "product_name": "帳跡 Veritrail",
-  "former_product_name": "AAAS-TW",
+  "engineering_name": "AAAS-TW",
+  "engineering_short_name": "AAAS",
   "source_commit": "4841c00148a941520e8d2538e5107a4e73195320",
   "description": "Selected files copied byte-for-byte from the declared private source snapshot. This record is a publisher declaration, not independent verification of the private repository.",
   "preserved_files": [
